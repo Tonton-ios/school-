@@ -187,7 +187,7 @@ body{background:linear-gradient(135deg,var(--bg-soft) 0%,#f0f5ff 100%)}
 
 /* Footer */
 .site-footer{
-  background:linear-gradient(135deg, #0f172a 0%, #1a2d4a 100%);
+  background:linear-gradient(135deg, var(--accent-1), var(--accent-2));
   border-top:1px solid rgba(255,255,255,0.1)
 }
 

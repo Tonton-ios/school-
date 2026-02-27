@@ -73,7 +73,7 @@ html,body{
   color:var(--accent);
 }
 
-.nav-toggle{display:none;background:none;border:0;font-size:1.25rem;cursor:pointer}
+.nav-toggle{display:none;background:none;border:0;font-size:1.25rem;cursor:pointer;}
 
 /* Hero */
 .hero{padding:0;margin:0}
@@ -541,7 +541,7 @@ html,body{
 
 /* Footer */
 .site-footer{
-  background:linear-gradient(135deg, #0f172a 0%, #1a2d4a 100%);
+  background:linear-gradient(135deg, var(--accent), var(--accent-dark));
   color:#fff;
   padding:2rem 0;
   margin-top:0;
@@ -988,6 +988,7 @@ html,body{
   .stats-grid{grid-template-columns:repeat(2,1fr)}
   .contact-form{grid-template-columns:1fr}
   .nav{display:none;position:absolute;top:64px;right:1rem;background:rgba(255,255,255,0.95);backdrop-filter:blur(10px);padding:1rem;border-radius:12px;box-shadow:var(--shadow-md);flex-direction:column;border:1px solid rgba(31,111,235,0.1)}
+  .nav a{color:var(--dark);}
   .nav-toggle{display:block}
   .hero-image{height:380px}
   .hero-overlay{padding:2rem 1rem;margin-left:1rem}
